@@ -15,6 +15,10 @@
         <h2>Here is the Data from JSON: </h2>
         <script>
             fetch("test.json")
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data)
+                })
         </script>
 
     </body>
