@@ -13,11 +13,13 @@
     <body>
         <h1>Hello Jamie.</h1>
         <h2>Here is the Data from JSON: </h2>
+        <p id="load1"></p>
         <script>
             fetch("test.json")
                 .then(response => response.json())
                 .then(data => {
-                    console.log(data)
+                    console.log(data.sentence)
+                    document.querySelector("#load1").innerText = data.sentence
                 })
         </script>
 
