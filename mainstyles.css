@@ -1,0 +1,72 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+
+}
+
+.menu-bar {
+    background: skyblue;
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+
+.menu-bar ul li{
+    width: 80px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.active, .menu-bar ul li:hover
+{
+    background: rgb(111, 152, 169);
+    border-radius: 3px;
+}
+
+.sub-menu-1{        /* This hides the submenu */
+    display: none; 
+}
+.menu-bar ul li:hover .sub-menu-1  /* this shows submenu when hovering */
+{
+    display: block;
+    position: absolute;
+    background-color: skyblue;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li /* this is adding border lines */
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
