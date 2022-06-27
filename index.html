@@ -5,80 +5,28 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" type="text/css" href="mainstyles.css" >
+        <link rel="stylesheet" type="text/css" href="styles2.css" >
 
 
     </head>
 
     <body>
-        <div class="menu-bar">
-        <ul>
-            <li class="active"><a href="#">Recipes</a>
-            
-            <div class="sub-menu-1">
+        <div class="clearfix">
+
+            <div class="box">
+                <h1 id="r1">Recipes</h1>
                 <ul>
-                    <li id="namesList"><a href="#"></a></li>
+                    <li id="namesList"></li>
                 </ul>
             </div>
-            </li>
-
-            <li>About</li>
-        </ul>
+            
+            <div class="box">
+                <h1 id="ingredients">Ingredients & Steps</h1>
+            </div>
         </div>
+            
 
-        <h1>This is a recipe page</h1>
-        <h2>This is a list of recipes</h2>
-        <h3></h3>
-        <h4 id="load2"></h4>
-
-        <script>
-            fetch("recipes.json")
-                .then(response => response.json())
-                .then(data => {
-                    // console.log(data.IP_Kimchi_Stew.Ingredients.Kimchi)
-                    // document.querySelector("#load1").innerText = data.IP_Kimchi_Stew.Ingredients.Kimchi
-                    // document.getElementById("load1").innerHTML = JSON.stringify(data, null, 2)
-
-                    // const alltext = JSON.stringify(data)
-                    // console.log(alltext)
-                    
-                    // var keys = Object.keys(alltext)
-                    // console.log(keys)
-                    
-                    // document.getElementById("load1").innerHTML = Object.keys(alltext)
-                    
-                    
-                    const alltext = data
-                    const names = Object.keys(alltext);  //names is an array with the keys
-                    
-                    console.log(names)
-                    
-                    var list = document.createElement('ul'); //create an unordered list
-                    names.forEach(function (recipe) {  //create a list item for each recipe_name and append it to the list
-                        var li = document.createElement('li');
-                        li.textContent = recipe;
-                        list.appendChild(li);
-                        console.log(li)
-
-                        console.log(list)
-
-                        //Inject into the DOM
-                        var namesList = document.querySelector("#namesList")
-                        namesList.appendChild(list)
-                    })
-
-
-                    // let list = document.getElementById("myList");
-                    // names.forEach((item)=>{
-                    //     let li = document.createElement("li");
-                    //     li.innerText = item;
-                    //     list.appendChild(li);
-                    //     })
-
-                        // document.getElementById("load1").innerHTML = names;
-                        
-                    })
-
+        <script src="scripts.js">           
         </script>
 
     </body>

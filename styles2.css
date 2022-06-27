@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    float: left;
+    width: 50%;
+    padding: 50px;
+}
+
+.box{
+    float: left;
+    width: 50%;
+    padding: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+#r1 {
+    padding: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    height: 100%; /* Full height */
+    position: relative; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: left;
+    border-bottom: 1px solid #555;
+  }
+
+  
+li a:hover {
+      background-color: #555;
+      color: white;
+    }
+
+li a:last-child {
+    border-bottom: none;
+    }
+
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
