@@ -36,9 +36,17 @@ function ingredientsTemplate(i2) {
     return `
     
     <ul class=inglist>
-    <li>${i2}</li>
+        <li>${i2}</li>
     </ul>
     
+    `
+}
+
+function noteTemplate(n2) {
+    return `
+    <ul>
+        <li>${n2}</li>
+    </ul>
     `
 }
 
@@ -48,7 +56,7 @@ function recipeTemplate(r1) {
         <h2>${r1.Name}</h2>
         <p>Ingredients: ${r1.Ingredients.map(ingredientsTemplate).join("")}</p>
         <p>Steps:${r1.Steps.map(stepTemplate).join("")}</p>
-
+        ${r1.Notes ? r1.Notes.map(noteTemplate):""}
     </div>
     `}
 

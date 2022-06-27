@@ -1,57 +1,167 @@
-    [
-    {"Name": "IP Kimchi Stew",
+[
+{"Name": "IP Kimchi Stew",
 
-    "Ingredients": 
-        [ "Kimchi 1 pound",
-        "Kimchi brine, 1/4 cup",
-        "Anchovy stock, 2 cups",
-        "Pork Shoulder 0.5 pounds",
-        "Tofu, 1 pound",
-        "Green Onion, 3 stalks",
-        "Yellow Onion, 1 medium",
-        "Salt 1 teaspoon",
-        "Sugar 2 teaspoons",
-        "Hot Pepper Flakes 2 teaspoons",
-        "Sesame Seed Oil 1 teaspoon",
-        "Hot Pepper paste, 3 teaspoons"]
-        ,
-    "Steps" : 
-        ["Add everything into IP and meat option x 30 min with quick release",
-        "Decrease Hot Pepper paste to taste"]
-    },
-        
+"Ingredients": 
+    [ "Kimchi 1 pound",
+    "Kimchi brine, 1/4 cup",
+    "Anchovy stock, 2 cups",
+    "Pork Shoulder 0.5 pounds",
+    "Tofu, 1 pound",
+    "Green Onion, 3 stalks",
+    "Yellow Onion, 1 medium",
+    "Salt 1 teaspoon",
+    "Sugar 2 teaspoons",
+    "Hot Pepper Flakes 2 teaspoons",
+    "Sesame Seed Oil 1 teaspoon",
+    "Hot Pepper paste, 3 teaspoons"]
+    ,
+"Steps" : 
+    ["Add everything into IP and meat option x 30 min with quick release",
+    "Decrease Hot Pepper paste to taste"]
+},
+
+{"Name": "Chicken Noodle - Stock",
+
+"Ingredients": 
+
+    ["Chicken bones, 1 carcass",
+    "Water, 4 quarts",
+    "Olive oil, 3 teaspoons",
+    "Salt, 3 teaspoons",
+    "Pepper, 3 teaspoons"]
+    ,
+"Steps" : 
+        ["Brown chicken carcass in non-finishing pot",
+        "Add 4 quarts water and bring to boil",
+        "Add 3 tspn each of Olive oil, salt, & pepper with 3 bay leaves",
+        "Boil for at least 1 hr",
+        "Drain into another/finishing pot with collander"]
+},
+
+{"Name": "Chicken Noodle - Soup",
+
+"Ingredients": 
+    ["Onion, 1 yellow",
+    "Carrot, 4 large", 
+    "Celery, 4 stalks"],
     
+"Steps": [
+    "Brown 1 onion, 4 large carrots, 4 celery with 2 tablespn butter",
+    "Then add 1 tspn each garlic, rosemary/dill, & garlic",
+    "Boil at least 20 min",
+    "Then add chicken and boil at least 15min",
+    "Cook noodles if desired separately and add at the end"]
+},
+
+{"Name": "IP Butter Chicken",
+
+"Ingredients": 
+    [ 
+    "Boneless Chicken, 1 pound",
+    "14 oz Canned Tomatoes",
+    "Garlic, 6 cloves",
+    "Ginger minced, 1-2 teaspoon",
+    "Cayenne Pepper 0.5 teaspoon",
+    "Smoked Paprika, 1 teaspoon",
+    "Salt, 1 teaspoon",
+    "Garam Masala, 1 teaspoon",
+    "Ground Cumin, 1 teaspoon",
+    "To finish: Butter, 4 oz",
+    "Heavy Cream or full-fat coconut milk, 4 oz",
+    "Another Garam Masala, 1 teaspoon"
+]
+    ,
+"Steps" : 
+    ["Add everything into IP EXCEPT FOR Butter, cream and 1 tsp Garam Masala",
+    "Cook in IP for 10 min on HI with 10 min natural release",
+    "Open pot after natural release, remove chicken to shred",
+    "Blend everything inside pot",
+    "Add up the remaining ingredients, then add chicken",
+    "Serve over carb"
+    ],
+"Notes" : 
+    ["Note: NO extra liquid is needed as chicken and tomatoes already have it."]
+},
+
+{"Name":"Miso Glazed Cod",
+
+"Ingredients":[
+    "4 Frozen Cod fillets",
+    "Pickled Ginger, 1.5 Tablesp chopped",
+    "Vegetable Stock, 4 cups",
+    "Soy Sauce, 1/4 cups",
+    "Fish Sauce, 1 Tablesp",
+    "Honey, 1 Tablesp",
+    "Sugar, 3 Tablesp",
+    "Cracked Black Peppercorn, 1 Tablesp",
+    "Choice of veggies"
+   ],
+
+"Steps":[
+   "Cook Cod",
+   "Add ingredients into a pot and boil",
+   "Serve over carb"
+   ]
+},
+
+{"Name": "Kimbap",
+
+"Ingredients":[
+    "Dried seaweed sheets(nori) - 4 sheets",
+    "Spinach 120g/4.2oz",
+    "Eggs, 2 beaten",
+    "Carrot 120g/4.2oz, julienned",
+    "Imitation Crab, 2-4 sticks",
+    "Kimbap ham/beef 4 sticks",
+    "Pickled yellow radish - 4",
+    "Burdoc root (optional), 12 strips",
+    "Short Grain Rice, steamed - 2 1/2 cups",
+    "Sesame oil, 2 tablespoon",
+    "Salt 1/2 teaspoon (or more to taste)"],
+
+"Steps" : [
+    "Rinse the Spinach and parboil (rapid boil) for 30s - 1 min.",
+    "Drain water and add 1/8 teasp salt and 1/2 Tablesp sesame oil. Mix well",
+    "Cook the egg and cut into long strips",
+    "Lightly cook carrots, crab sticks and meat",
+    "Place cooked rice in mixing bowl & add 1/2 Tablespo sesame oil & 1/4 teasp fine sea salt",
+    "Place 1 dried nori sheet on bamboo mat. Spread rice thinly to cover 2/3 on lower part",
+    "Fill with ingredients",
+    "Use water and/or rice grain to help stick the nori"]},
+
+{"Name":"Crispy Chicken Parmesan",
+
+"Ingredients":[
+    "For the chicken: ",
+    "Chicken Breasts, 3 large chicken breasts",
+    "Eggs, 2",
+    "Ginger minced, 1 Tablesp",
+    "Parsley, 2 Tablesp chopped",
+    "Panko Breadcrumbs, 1.5 cup",
+    "Parmesan Cheese , 1/2 cup",
+    "Garlic or Onion powder, 1 teasp",
+    "Olive oil for frying",
+    "For the Sauce: ",
+    "Olive oil, 3 teaspoons",
+    "Onion, 1 yellow chopped",
+    "Garlic minced, 2 teaspo",
+    "Tomato puree, 14 oz",
+    "Italian herbs, 1 teaspo",
+    "Sugar, 1 teaspo"
+   ],
+"Steps":[
+    "Preaheat oven 430F",
+    "Whisk eggs, garlic, parsley, salt & pepper to taste, in a shallow dish",
+    "Add chicken to egg to coat, then into mix of bread crumbs, chees & garlic powder",
+    "Fry until golden/ 165F",
+    "Top chicken with sauce"
+    ],
+"Notes":[
+     "For sauce, fry onion in a pot until transparent, then garlic for 30 sec.  Then add the tomato puree and salt & pepper to tase with italian herbs and sugar" 
+   ]
+}
+         
     
-    {"Name": "Chicken Noodle - Stock",
-
-    "Ingredients": 
-
-        ["Chicken bones, 1 carcass",
-        "Water, 4 quarts",
-        "Olive oil, 3 teaspoons",
-        "Salt, 3 teaspoons",
-        "Pepper, 3 teaspoons"]
-        ,
-        "Steps" : 
-            ["Brown chicken carcass in non-finishing pot",
-            "Add 4 quarts water and bring to boil",
-            "Add 3 tspn each of Olive oil, salt, & pepper with 3 bay leaves",
-            "Boil for at least 1 hr",
-            "Drain into another/finishing pot with collander"]
-    },
-
-    {"Name": "Chicken Noodle - Soup",
-
-    "Ingredients": 
-        ["Onion, 1 yellow",
-        "Carrot, 4 large", 
-        "Celery, 4 stalks"],
         
-    "Steps": [
-        "Brown 1 onion, 4 large carrots, 4 celery with 2 tablespn butter",
-        "Then add 1 tspn each garlic, rosemary/dill, & garlic",
-        "Boil at least 20 min",
-        "Then add chicken and boil at least 15min",
-        "Cook noodles if desired separately and add at the end"]
-    }
-    ]
+
+]
