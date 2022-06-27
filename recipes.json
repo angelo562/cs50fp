@@ -20,6 +20,59 @@
     "Decrease Hot Pepper paste to taste"]
 },
 
+{"Name":"IP Meat Stew",
+
+    "Ingredients":[
+    "Beef Chuck ~1.5 lb, cubed",
+    "Gold Potato, 1.5 lbs, diced",
+    "Carrot, 2 large",
+    "Onion, 1 yellow diced",
+    "Garlic minced, 2 teaspo",
+    "Crushed Canned Tomatoes, 28oz",
+    "Water, 1 Liter",
+    "Salt, 4 teaspoons",
+    "Pepper, 2 teaspoons",
+    "Oregano, dried, 3 teasp"
+       ],
+    "Steps":[
+        "Sear Beef",
+        "Add all ingredients to IP",
+        "Set to Meat setting x 25min.",
+        "Enjoy with rice"
+        
+        ],
+    "Notes":[
+    "Quick and hearty.  A favorite of ours!"
+       ]
+    },
+
+{"Name":"Drumstick Marinade",
+
+"Ingredients":[
+    "Olive oil, 1/3 cup",
+    "Lemon juice, 35ml or 1 medium lemon",
+    "Honey, 1 Tablesp",
+    "1 teaspoon of Oregano, Paprika, Garlic powder, Onion Powder, Worcestershire sauce, Dijon Mustard",
+    "1/2 teaspoon of Black Pepper, salt, thyme"
+    ],
+"Steps":[
+    "Mix all in a mixing bowl and add to chicken",
+    "Set in fridge for at least 1 hr",
+    "Drumsticks in air fryer 380F x 19min to an internal temp of 175-180F"
+    ]
+},
+
+{"Name":"Air Fry - Costco garlic drumsticks",
+
+    "Ingredients":[
+        "5 drumsticks"
+       ],
+    "Steps":[
+        "Air Fry @ 400 x 16min",
+        "Flip, then 8 min more for internal temp of 178"
+        ]
+    },
+
 {"Name": "Chicken Noodle - Stock",
 
 "Ingredients": 
@@ -35,7 +88,7 @@
         "Add 4 quarts water and bring to boil",
         "Add 3 tspn each of Olive oil, salt, & pepper with 3 bay leaves",
         "Boil for at least 1 hr",
-        "Drain into another/finishing pot with collander"]
+        "Drain into another/finishing pot with collander. This pot to be used to complete Soup"]
 },
 
 {"Name": "Chicken Noodle - Soup",
@@ -52,6 +105,53 @@
     "Then add chicken and boil at least 15min",
     "Cook noodles if desired separately and add at the end"]
 },
+
+{"Name":"Pizza Dough",
+
+"Ingredients":[
+    "For Dough, needs 12-24hrs: ",
+    "Bread Flour (pref), 11 oz. Can use all-purp, but this has more protein for text",
+    "Instant Yeast, 1 teaspoon",
+    "Water, 8 oz at 105-110F"
+    
+       ],
+"Steps":[
+    "Add 11 oz Flour to mixing bowl",
+    "Add 1 teaspo salt, 1 teaspo Instant Yeast",
+    "Then add water 110F, warmth will help",
+    "Put flour on hands and then Mix by HAND until stringy. Won't take long",
+    "Spray oil in a mixing bowl, Then put dough on.  Spray oil over dough to help prevent film. Fridge for 12-24 hrs"],
+
+"Notes": ["Will fill 10' diamter cast iron"]
+    },
+
+{"Name":"Pan Pizza",
+
+    "Ingredients":[
+    "For Sauce #1: 1 can tomatoes drained and crushed",
+    "EVO 1 teaspoon.",
+    "Garlic, 1 cloves",
+    "1/4 teaspoon: salt, sugar, oregano, crushed pepper",
+    "Blend sauces in Processor",
+    "_",
+    "For Sauce #2: 28 oz can Peeled tomato can drained",
+    "3 anchovies for umami",
+    "EVO 3 tablespo",
+    "1 Teaspoon: Salt, Oregano",
+    "1/2 teaspoon: Sugar, Black Pepper, Red Pepper"
+        ],
+    "Steps":[
+    "Pull Dough out of fridge x 90min",
+    "2-3 tablespo EVO in cast iron pan with a small amount of bread crumbs",
+    "Add sauce and ingredients you want",
+    "400F oven x 27.5 min. ",
+    "Take out and check the bottom, finish on stove",
+    "Cool before eating"        
+        ],
+    "Notes":[
+        "Thin ingredients will take 27.5 min. More will take longer."
+        ]
+    },
 
 {"Name": "IP Butter Chicken",
 
@@ -83,6 +183,32 @@
     ["Note: NO extra liquid is needed as chicken and tomatoes already have it."]
 },
 
+{"Name":"IP Chicken Tortilla Soup",
+
+"Ingredients":[
+    "Costco Rotisserie Chicken - 1 whole, shredded",
+    "Corn, 1 can",
+    "Diced Tomatoes (fire roasted pref), 2 cans",
+    "Green chile, 1 small can",
+    "Black Beans, 1 can drained",
+    "Onion, 1 yellow chopped",
+    "Garlic minced, 2 teaspo",
+    "Ground Cumin, 1/2 teaspoon",
+    "Chili Powder, 1/4 teaspo",
+    "Salt 1.5 teaspoon",
+    "Pepper, 1 teaspoons",
+    "Chicken Broth, 3 cans"
+    ],
+"Steps":[
+    "Saute in IP x 15m- Corn, tomatoes, onion, beans, chile, garlic, spices",
+    "Added chicken & broth.  High Pressure x 20min",
+    "Serve over carb"
+    ],
+"Notes":[
+
+    ]
+},
+
 {"Name":"Miso Glazed Cod",
 
 "Ingredients":[
@@ -98,7 +224,7 @@
    ],
 
 "Steps":[
-   "Cook Cod",
+   "Cook Cod - Oven: 400F x 18-22 min.  Conv Oven: 375F x 17-19min.",
    "Add ingredients into a pot and boil",
    "Serve over carb"
    ]
@@ -150,7 +276,6 @@
     "Sugar, 1 teaspo"
    ],
 "Steps":[
-    "Preaheat oven 430F",
     "Whisk eggs, garlic, parsley, salt & pepper to taste, in a shallow dish",
     "Add chicken to egg to coat, then into mix of bread crumbs, chees & garlic powder",
     "Fry until golden/ 165F",
@@ -159,9 +284,31 @@
 "Notes":[
      "For sauce, fry onion in a pot until transparent, then garlic for 30 sec.  Then add the tomato puree and salt & pepper to tase with italian herbs and sugar" 
    ]
-}
-         
+},
+
+{"Name":"Pico De Gallo",
+
+"Ingredients":[
+    "Tomatoes (Roma pref), 3 pounds diced",
+    "White Onion, 2 cups (1 medium)",
+    "Jalapenos without seeds, 2 medium",
+    "Cilantro 1 cup ~ 1 bunch",
+    "Lime Juice, 1/2 cup. Most important, use fresh limes for best",
+    "Salt 1.5 teaspoon"
+    ],
+"Steps":[
+    "Prep and remove stems from tomatoes. Prep Onions and jalapeno",
+    "Chop Cilantro and Jalapeno to almost fine chop(S-chop in processor).",
+    "Add Onion to processor to finish to fine chop",
+    "Put everything in mixing bowl and add lime juice, salt",
+    "Dice tomatoes and add to mixing bowl",
+    "Marinate for at least 2 hours"
     
+    ],
+"Notes":[
+    "1 batch fills 34oz- 1 medium Ikea Mason jar"
+    ]
+}
         
 
 ]
