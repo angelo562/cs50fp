@@ -1,27 +1,41 @@
+let recipejson
+let recipe_name_list 
+
 fetch("recipes.json")
 .then(response => response.json())
 .then(data => {
     
-    const alltext = data
-    const recipenames = Object.keys(alltext);  //recipenames is an array with the keys
+    //const recipenames = Object.keys(data);  //recipenames is an array/list
     
+    data.forEach(function (elem) {console.log(elem.Ingredients)})
+    data.forEach(function (elem) {console.log(elem.Steps)})
+
+    document.getElementById("recipeNumb").innerHTML = `<h3>${data.length} Recipes</h3>`  //This puts down data.length above Left Box 1
+
     var list = document.createElement('ul'); //create an unordered list
-    recipenames.forEach(function (recipename) {  //create a list item for each recipe_name and append it to the list
+    data.forEach(function (r) {  //create a list item for each recipe_name and append it to the list
         var li = document.createElement('li');
-        li.textContent = recipename;
+        li.textContent = r.Name;
         list.appendChild(li);
-
-        //Inject into the DOM
-        // var namesList = document.querySelector("#namesList")
-        // namesList.appendChild(list)
-
-        // // //Use querySelector to change href
-        // document.getElementById("namesList").href = recipename
         var myh3 = document.getElementById("namesList");
         var aTag = document.createElement('a');
-        aTag.setAttribute('href', "#" + recipename);
-        aTag.innerText = recipename +" \n";
+        aTag.setAttribute('href', "#" + r.Name);
+        aTag.innerText = r.Name +" \n";
         myh3.appendChild(aTag);
+
+    
+
+
+// document.getElementById("ingredientsList").innerHTML = `
+
+// ${data[IP Kimchi Stew]}
+
+// <p class="footer">Footer</p>
+// `
+    
+    
     })
 
+
     })
+

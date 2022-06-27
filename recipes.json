@@ -1,54 +1,56 @@
-{
-    "IP Kimchi Stew" : {
-        "Ingredients": {
-            "Kimchi" : [1, "pound"],
-            "Kimchi brine" : [0.25, "cup"],
-            "Anchovy stock" : [2, "cups"],
-            "Pork Shoulder" : [0.5, "pounds"],
-            "Tofu": [1, "pound"],
-            "Green Onion": [3, "stalks"],
-            "Yellow Onion": [1, "medium"],
-            "Salt" : [1, "teaspoon"],
-            "Sugar" : [2, "teaspoon"],
-            "Hot Pepper Flakes" : [2, "teaspoon"],
-            "Sesame Seed Oil" : [1, "teaspoon"],
-            "Hot Pepper paste" : [3, "teaspoon"]
-            },
-        "Steps" : [
-            "Add everything into IP and meat option x 30 min with quick release",
-            "Decrease Hot Pepper paste to taste"
-        ]
+    [
+    {"Name": "IP Kimchi Stew",
+
+    "Ingredients": 
+        {"Kimchi" : [1, "pound"],
+        "Kimchi brine" : [0.25, "cup"],
+        "Anchovy stock" : [2, "cups"],
+        "Pork Shoulder" : [0.5, "pounds"],
+        "Tofu": [1, "pound"],
+        "Green Onion": [3, "stalks"],
+        "Yellow Onion": [1, "medium"],
+        "Salt" : [1, "teaspoon"],
+        "Sugar" : [2, "teaspoon"],
+        "Hot Pepper Flakes" : [2, "teaspoon"],
+        "Sesame Seed Oil" : [1, "teaspoon"],
+        "Hot Pepper paste" : [3, "teaspoon"]}
+        ,
+    "Steps" : 
+        ["Add everything into IP and meat option x 30 min with quick release",
+        "Decrease Hot Pepper paste to taste"]
     },
+        
     
-    "Chicken Noodle - Stock": {
-        "Ingredients": {
-            "Chicken bones" : [1, "carcass"],
-            "Water": [4, "quarts"],
-            "Olive Oil":[3, "teaspooon"],
-            "Salt":[3, "teaspooon"],
-            "Pepper": [3, "teaspooon"]
-            },
-        "Steps" : [
-            "Brown chicken carcass in non-finishing pot",
+    
+    {"Name": "Chicken Noodle - Stock",
+
+    "Ingredients": 
+        {"Chicken bones" : [1, "carcass"],
+        "Water": [4, "quarts"],
+        "Olive Oil":[3, "teaspooon"],
+        "Salt":[3, "teaspooon"],
+        "Pepper": [3, "teaspooon"]}
+        ,
+        "Steps" : 
+            ["Brown chicken carcass in non-finishing pot",
             "Add 4 quarts water and bring to boil",
             "Add 3 tspn each of Olive oil, salt, & pepper with 3 bay leaves",
             "Boil for at least 1 hr",
             "Drain into another/finishing pot with collander"]
-                        },
-                        
-    "Chicken Noodle - Soup": {
-        "Ingredients": {
-            "Onion" : [1, "yellow"],
-            "Carrot" : [4, "large"],
-            "Celery" : [4, "stalks"]},
+    },
+
+    {"Name": "Chicken Noodle - Soup",
+
+    "Ingredients": 
+        {"Onion" : [1, "yellow"],
+        "Carrot" : [4, "large"],
+        "Celery" : [4, "stalks"]},
         
-        "Steps": [
-            "Brown 1 onion, 4 large carrots, 4 celery with 2 tablespn butter",
-            "Then add 1 tspn each garlic, rosemary/dill, & garlic",
-            "Boil at least 20 min",
-            "Then add chicken and boil at least 15min",
-            "Cook noodles if desired separately and add at the end"]
-                            }
-
-
-}
+    "Steps": [
+        "Brown 1 onion, 4 large carrots, 4 celery with 2 tablespn butter",
+        "Then add 1 tspn each garlic, rosemary/dill, & garlic",
+        "Boil at least 20 min",
+        "Then add chicken and boil at least 15min",
+        "Cook noodles if desired separately and add at the end"]
+    }
+    ]
