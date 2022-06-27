@@ -2,18 +2,18 @@
     {"Name": "IP Kimchi Stew",
 
     "Ingredients": 
-        {"Kimchi" : [1, "pound"],
-        "Kimchi brine" : [0.25, "cup"],
-        "Anchovy stock" : [2, "cups"],
-        "Pork Shoulder" : [0.5, "pounds"],
-        "Tofu": [1, "pound"],
-        "Green Onion": [3, "stalks"],
-        "Yellow Onion": [1, "medium"],
-        "Salt" : [1, "teaspoon"],
-        "Sugar" : [2, "teaspoon"],
-        "Hot Pepper Flakes" : [2, "teaspoon"],
-        "Sesame Seed Oil" : [1, "teaspoon"],
-        "Hot Pepper paste" : [3, "teaspoon"]}
+        [ "Kimchi 1 pound",
+        "Kimchi brine, 1/4 cup",
+        "Anchovy stock, 2 cups",
+        "Pork Shoulder 0.5 pounds",
+        "Tofu, 1 pound",
+        "Green Onion, 3 stalks",
+        "Yellow Onion, 1 medium",
+        "Salt 1 teaspoon",
+        "Sugar 2 teaspoons",
+        "Hot Pepper Flakes 2 teaspoons",
+        "Sesame Seed Oil 1 teaspoon",
+        "Hot Pepper paste, 3 teaspoons"]
         ,
     "Steps" : 
         ["Add everything into IP and meat option x 30 min with quick release",
@@ -25,11 +25,12 @@
     {"Name": "Chicken Noodle - Stock",
 
     "Ingredients": 
-        {"Chicken bones" : [1, "carcass"],
-        "Water": [4, "quarts"],
-        "Olive Oil":[3, "teaspooon"],
-        "Salt":[3, "teaspooon"],
-        "Pepper": [3, "teaspooon"]}
+
+        ["Chicken bones, 1 carcass",
+        "Water, 4 quarts",
+        "Olive oil, 3 teaspoons",
+        "Salt, 3 teaspoons",
+        "Pepper, 3 teaspoons"]
         ,
         "Steps" : 
             ["Brown chicken carcass in non-finishing pot",
@@ -42,9 +43,9 @@
     {"Name": "Chicken Noodle - Soup",
 
     "Ingredients": 
-        {"Onion" : [1, "yellow"],
-        "Carrot" : [4, "large"],
-        "Celery" : [4, "stalks"]},
+        ["Onion, 1 yellow",
+        "Carrot, 4 large", 
+        "Celery, 4 stalks"],
         
     "Steps": [
         "Brown 1 onion, 4 large carrots, 4 celery with 2 tablespn butter",

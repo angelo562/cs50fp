@@ -27,6 +27,7 @@
 }
 
 
+
 .recipe1 {
     padding: auto;
 }
@@ -69,4 +70,27 @@ li a:last-child {
 
 .footer{
     font-size: xx-small;
+}
+
+.ing_steps{
+    color: black;
+}
+
+.stepslist {                         /* can't seem to update this list after general ul   */
+    color:black;
+    border: none;
+    padding: 0%;
+    margin-top: 0%;
+}
+
+h4{
+    margin-block: 0px;
+    text-align: left;
+    display: list-item;
+}
+
+.inglist {
+    color: grey;
+    border: none;
+    text-align: left;
 }
