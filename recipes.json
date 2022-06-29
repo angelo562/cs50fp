@@ -230,6 +230,33 @@
    ]
 },
 
+{"Name" : "Garlic Shrimp",
+
+"Ingredients" : [
+    "Large Shrimp, deveined 1 3/4 pound",
+    "Butter, 2 Tablespoon",
+    "EVO, 2 Tablespoon",
+    "Garlic, 4 cloves minced",
+    "White wine, 1/2 cup dry",
+    "Salt 3/4 teaspoon (or more to taste)",
+    "Crushed red pepper flakes, 1/8 teaspoon",
+    "Black pepper, 1/4 teaspoon",
+    "Parsley, 1/3 cup chopped",
+    "Lemon juice, 1/2 cup ~1 medium lemon"
+],
+
+"Steps" : [
+    "Melt butter with EVO",
+    "Add garlic and saute for 1 min",
+    "Add in everything except for shrimp/parsely/lemon juice.  Simmer x 5 min",
+    "Add in Shrimp until cooked",
+    "Add in parsley and lemon juice",
+    "Serve over carb"
+    
+]
+
+},
+
 {"Name": "Kimbap",
 
 "Ingredients":[
@@ -293,7 +320,7 @@
     "White Onion, 2 cups (1 medium)",
     "Jalapenos without seeds, 2 medium",
     "Cilantro 1 cup ~ 1 bunch",
-    "Lime Juice, 1/2 cup. Most important, use fresh limes for best",
+    "Lime Juice, 1/4 cup (less 'juicy') - 1/2 cup. Most important, use fresh limes ~3-6 for best",
     "Salt 1.5 teaspoon"
     ],
 "Steps":[
@@ -301,14 +328,31 @@
     "Chop Cilantro and Jalapeno to almost fine chop(S-chop in processor).",
     "Add Onion to processor to finish to fine chop",
     "Put everything in mixing bowl and add lime juice, salt",
-    "Dice tomatoes and add to mixing bowl",
+    "Dice tomatoes, strain, and add to mixing bowl",
     "Marinate for at least 2 hours"
     
     ],
 "Notes":[
-    "1 batch fills 34oz- 1 medium Ikea Mason jar"
+    "2 batch fills 68oz- 2 medium Ikea Mason jar"
     ]
-}
-        
+    },
+
+{"Name" : "Roased Broccoli",
+
+"Ingredients" : [
+    "Olive oil, 3 tablespoon",
+    "Onion Powder, 1 teaspoon",
+    "Garlic Salt, 1 teaspoon",
+    "Red & Black Pepper, 1 teaspoon"],
+
+"Steps" : [
+    "Wash broccoli and pat dry.  Drier = crispier",
+    "Air fry/ convection oven 360F x 8-10 min"
+]}
+
+
 
 ]
+
+        
+
